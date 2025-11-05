@@ -35,7 +35,7 @@ class Car extends Vehicle {
   @override
   void start() {
 
-    print("🚗 Starting the $brand $model car engine. Doors locked.");
+    print(" Starting the $brand $model car engine. Doors locked.");
   }
   
   @override
@@ -60,7 +60,7 @@ class Motorcycle extends Vehicle {
   @override
   void start() {
 
-    print("🏍️ Starting the $brand $model motorcycle engine. Revving up!");
+    print(" Starting the $brand $model motorcycle engine. Revving up!");
   }
   
   @override
